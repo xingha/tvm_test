@@ -2,7 +2,7 @@ from tvm.contrib import graph_runtime
 import mxnet as mx
 from mxnet import ndarray as nd
 # import nnvm.compiler
-# import nnvm.testing
+# import nnvm.testing 1
 import tvm
 import tvm.relay as relay
 from tvm.contrib import graph_runtime
