@@ -2,7 +2,7 @@ from tvm.contrib import graph_runtime
 import mxnet as mx
 from mxnet import ndarray as nd
 # import nnvm.compiler
-# import nnvm.testing
+# import nnvm.testing 2
 import tvm
 import tvm.relay as relay
 from tvm.contrib import graph_runtime
@@ -11,7 +11,7 @@ import cv2
 import time
 import numpy as np
 import sklearn
-from sklearn import preprocessing
+from sklearn import preprocessing 
 
 prefix,epoch = "/home/u260260/mntdisk/sets_face/face_models/r100/model",0
 sym, arg_params, aux_params = mx.model.load_checkpoint(prefix, epoch)
