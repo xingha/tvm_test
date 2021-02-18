@@ -80,7 +80,7 @@ def runmodule(path):
       # print(embedding)
       print('[%d]'%i, type(embedding))
       print('[%d]'%i, embedding.shape)
-
+git push -u origin main
 
 class Performance:
    def __init__(self, path):
